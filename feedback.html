@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Student Feedback</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Student Feedback Form</h1>
+
+    </header>
+
+
+    <main>
+
+        <form action="#" method="post">
+
+            <label for="name">
+                Name:
+            </label>
+
+            <input type="text"
+                   id="name"
+                   name="name"
+                   required>
+
+            <br><br>
+
+
+            <label for="email">
+                Email:
+            </label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   required>
+
+            <br><br>
+
+
+            <label for="rating">
+                Rate the College:
+            </label>
+
+            <input type="range"
+                   id="rating"
+                   name="rating"
+                   min="1"
+                   max="10"
+                   value="5">
+
+            <br><br>
+
+
+            <label for="color">
+                Choose your favourite color:
+            </label>
+
+            <input type="color"
+                   id="color"
+                   name="color">
+
+            <br><br>
+
+
+            <label for="date">
+                Date:
+            </label>
+
+            <input type="date"
+                   id="date"
+                   name="date">
+
+            <br><br>
+
+
+            <label for="department">
+                Department:
+            </label>
+
+            <input list="departments"
+                   id="department"
+                   name="department">
+
+            <datalist id="departments">
+
+                <option value="Information Technology">
+                <option value="Computer Science">
+                <option value="Electrical Engineering">
+                <option value="Mechanical Engineering">
+                <option value="Civil Engineering">
+
+            </datalist>
+
+            <br><br>
+
+
+            <p>Overall Experience:</p>
+
+            <input type="radio"
+                   id="excellent"
+                   name="experience"
+                   value="excellent">
+
+            <label for="excellent">
+                Excellent
+            </label>
+
+
+            <input type="radio"
+                   id="good"
+                   name="experience"
+                   value="good">
+
+            <label for="good">
+                Good
+            </label>
+
+
+            <input type="radio"
+                   id="average"
+                   name="experience"
+                   value="average">
+
+            <label for="average">
+                Average
+            </label>
+
+
+            <br><br>
+
+
+            <label for="feedback">
+                Your Feedback:
+            </label>
+
+            <br>
+
+            <textarea id="feedback"
+                      name="feedback"
+                      rows="7"
+                      cols="50"
+                      placeholder="Write your feedback here...">
+            </textarea>
+
+            <br><br>
+
+
+            <input type="checkbox"
+                   id="contact"
+                   name="contact">
+
+            <label for="contact">
+                You may contact me regarding this feedback.
+            </label>
+
+            <br><br>
+
+
+            <button type="submit">
+                Submit Feedback
+            </button>
+
+            <button type="reset">
+                Clear
+            </button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <p>&copy; 2026 College Student Portal</p>
+
+    </footer>
+
+</body>
+
+</html>
